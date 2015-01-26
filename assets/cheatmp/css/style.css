@@ -1,0 +1,1574 @@
+*
+{
+    border: none;
+    font-family: 'Droid Sans',sans-serif;
+    font-weight: 400;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+}
+a img
+{
+    border: none;
+    outline: none;
+}
+html
+{
+    background: #246;
+    height: 100%;
+    min-width: 960px;
+    overflow: hidden;
+    width: 100%;
+}
+body
+{
+    height: 100%;
+    min-width: 960px;
+    overflow: hidden;
+    position: absolute;
+    position: relative;
+    width: 100%;
+}
+.center
+{
+    margin: 0 auto;
+    position: relative;
+    width: 850px;
+}
+#wrapper
+{
+    height: 100%;
+    left: 0;
+    min-width: 960px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#scroll
+{
+    bottom: 10px!important;
+    left: 0!important;
+    min-width: 960px;
+    overflow: visible!important;
+    position: absolute!important;
+    right: 0!important;
+    top: 10px!important;
+}
+#sitebackground
+{
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+#logo
+{
+    background: url(../images/logo.png) no-repeat bottom center;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#logo a
+{
+    background: rgba(0,0,0,0);
+    cursor: pointer;
+    display: block;
+    height: 70px;
+    left: 50%;
+    margin-left: -200px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -1000px;
+    top: 30px;
+    width: 400px;
+    z-index: 100;
+}
+#logo h1
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -1000px;
+}
+#game
+{
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
+    height: 360px;
+    margin: 150px auto 25px;
+    overflow: hidden;
+    position: relative;
+    width: 700px;
+}
+#background
+{
+    border-radius: 10px;
+    height: 360px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 700px;
+    z-index: 0;
+}
+#shadowtop
+{
+    background: url(../images/shadow.png) repeat-x top left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 700px;
+    z-index: 1;
+}
+#shadowbottom
+{
+    background: url(../images/shadow.png) repeat-x bottom left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: 0;
+    height: 180px;
+    left: 0;
+    position: absolute;
+    width: 700px;
+    z-index: 1;
+}
+#content
+{
+    height: 355px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 700px;
+    z-index: 2;
+}
+#title
+{
+    background: url(../images/gameicon.png) no-repeat left center;
+    color: #AC3;
+    font-size: 24px;
+    left: 15px;
+    overflow: hidden;
+    padding-left: 28px;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+}
+#version
+{
+    color: #CCC;
+    font-size: 15px;
+    margin-left: 10px;
+}
+#statusholder
+{
+    bottom: 17px;
+    color: #CCC;
+    font-size: 15px;
+    line-height: 17px;
+    position: absolute;
+    right: 20px;
+    text-align: right;
+}
+#status.red
+{
+    color: #D00;
+}
+#status.green
+{
+    color: #AC3;
+}
+#facebook
+{
+    bottom: 20px;
+    height: 28px;
+    left: 20px;
+    position: absolute;
+    width: 362px;
+}
+#username
+{
+    bottom: 20px;
+    height: 28px;
+    left: 20px;
+    position: absolute;
+    width: 362px;
+}
+#usname
+{
+    border: 3px solid #FFF;
+    border-radius: 4px;
+    float: left;
+    font-size: 15px;
+    height: 16px;
+    line-height: 16px;
+    margin-right: 7px;
+    padding: 3px 7px;
+    width: 200px;
+}
+#uslogin
+{
+    background: #AC3;
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    width: 100px;
+}
+#fbicon
+{
+    background: url(../images/fbicon.png) no-repeat center center;
+    float: left;
+    height: 28px;
+    margin-right: 7px;
+    width: 28px;
+}
+#fbemail
+{
+    border: 3px solid #FFF;
+    border-radius: 4px;
+    float: left;
+    font-size: 15px;
+    height: 16px;
+    line-height: 16px;
+    margin-right: 7px;
+    padding: 3px 7px;
+    width: 200px;
+}
+#fblogin
+{
+    background: #469;
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    width: 100px;
+}
+#loader
+{
+    background: #333;
+    background: rgba(255,255,255,0.1);
+    bottom: 10px;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 700px;
+    z-index: 3;
+}
+#progress
+{
+    background: #AC3;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0px;
+}
+#progressa
+{
+    background: url(../images/loader.png) no-repeat center center;
+    height: 3px;
+    left: -200px;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    z-index: 1;
+}
+#activate
+{
+    bottom: 20px;
+    display: none;
+    height: 28px;
+    left: 20px;
+    opacity: 0;
+    position: absolute;
+    width: 362px;
+}
+#aicon
+{
+    background: url(../images/activate.png) no-repeat center center;
+    float: left;
+    height: 28px;
+    margin-right: 7px;
+    width: 28px;
+}
+#acode
+{
+    border: 3px solid #FFF;
+    border-radius: 4px;
+    float: left;
+    font-size: 15px;
+    height: 16px;
+    line-height: 16px;
+    margin-right: 7px;
+    padding: 3px 7px;
+    width: 200px;
+}
+#abutton
+{
+    background: #D00;
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    width: 100px;
+}
+#success
+{
+    bottom: 11px;
+    color: #CCC;
+    display: none;
+    height: 48px;
+    left: 20px;
+    opacity: 0;
+    position: absolute;
+    width: 362px;
+}
+#success div
+{
+    color: #AC3;
+    font-size: 20px;
+    font-weight: 400;
+}
+#resources
+{
+    bottom: 13px;
+    display: none;
+    left: 20px;
+    opacity: 0;
+    position: absolute;
+    width: 362px;
+}
+.resource input
+{
+    border-radius: 4px;
+    font-size: 15px;
+    height: 16px;
+    line-height: 16px;
+    padding: 6px 10px;
+    width: 200px;
+}
+#generate
+{
+    background: #AC3;
+    border-radius: 4px;
+    bottom: 7px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 100px;
+}
+.resource
+{
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 28px;
+    margin-bottom: 7px;
+    padding-left: 35px;
+}
+#usernamehelp
+{
+    background: #AAA url(../images/info.png) no-repeat left center;
+    background: rgba(255,255,255,0.3) url(../images/info.png) no-repeat left center;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2),inset 0 1px 1px rgba(255,255,255,0.2);
+    height: 0;
+    margin: 0 auto;
+    opacity: 0;
+    overflow: hidden;
+    width: 700px;
+}
+#unholder
+{
+    color: #DDD;
+    display: block;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 15px;
+    padding-left: 95px;
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+#unholder img
+{
+    margin-top: 5px;
+}
+#unholder a
+{
+    color: #DDD;
+    transition: all 0.5s;
+}
+#unholder a:hover
+{
+    color: #FFF;
+}
+#unholder .hh3
+{
+    color: #EEE;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.coins
+{
+    background-image: url(../images/coins.png);
+}
+.gems
+{
+    background-image: url(../images/gems.png);
+}
+.money
+{
+    background-image: url(../images/money.png);
+}
+.moves
+{
+    background-image: url(../images/moves.png);
+}
+.lives
+{
+    background-image: url(../images/lives.png);
+}
+.energy
+{
+    background-image: url(../images/energy.png);
+}
+.tokens
+{
+    background-image: url(../images/tokens.png);
+}
+.cash
+{
+    background-image: url(../images/cash.png);
+}
+.password #generate
+{
+    width: 125px!important;
+}
+#resources.password
+{
+    bottom: 13px!important;
+}
+input[type="checkbox"]
+{
+    display: none;
+}
+input[type="checkbox"]+label
+{
+    background: url(../images/checkbox.png) left top no-repeat;
+    color: #CCC;
+    cursor: pointer;
+    display: inline-block;
+    height: 18px;
+    margin-bottom: 7px;
+    padding-left: 26px;
+    vertical-align: middle;
+    width: 230px;
+}
+input[type="checkbox"]:checked+label
+{
+    background-position: bottom left;
+}
+#hackslist
+{
+    margin: 0 auto;
+    padding-top: 150px;
+    position: relative;
+    width: 900px;
+    z-index: 0;
+}
+#hlholder
+{
+    position: relative;
+    width: 930px;
+}
+.homegame
+{
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
+    float: left;
+    height: 150px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+    position: relative;
+    width: 280px;
+}
+.hgtitle
+{
+    background: #000 url(../images/hoverlogo.png) no-repeat center center;
+    background: rgba(0,0,0,0.65) url(../images/hoverlogo.png) no-repeat center center;
+    border-radius: 10px;
+    height: 170px;
+    left: -10px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -10000px;
+    top: -10px;
+    width: 300px;
+}
+.hgback
+{
+    border-radius: 10px;
+}
+.cf_w
+{
+    background: #333!important;
+    border-radius: 0!important;
+    height: 240px!important;
+    left: 50%!important;
+    margin-left: -350px!important;
+    margin-top: -130px!important;
+    overflow: hidden!important;
+    top: 182px!important;
+    width: 700px!important;
+}
+#cf_offers
+{
+    left: -90px!important;
+    padding: 0!important;
+    position: absolute!important;
+    top: -15px!important;
+    width: 880px!important;
+}
+.cf_w_head
+{
+    display: none!important;
+}
+.cf_w_instructions
+{
+    display: none!important;
+}
+.cf_w_bg
+{
+    display: none!important;
+}
+.cf_w_check
+{
+    display: none!important;
+}
+#asm-widget
+{
+    background: transparent!important;
+    border: none!important;
+    border-radius: 0!important;
+    box-shadow: none!important;
+    height: 240px!important;
+    moz-box-shadow: none!important;
+    opacity: 0;
+    position: absolute!important;
+    top: 50px!important;
+    webkit-box-shadow: none!important;
+    z-index: 100!important;
+}
+.asm-widget-header
+{
+    display: none!important;
+}
+#asm-offers h3
+{
+    display: none!important;
+}
+.asm-offer
+{
+    background: transparent!important;
+    border: none!important;
+    font-weight: 600!important;
+    padding: 0!important;
+}
+#asm-offers
+{
+    padding: 0!important;
+}
+#asm-background-locker
+{
+    display: none!important;
+}
+.asm-offers
+{
+    background: #333!important;
+    background: rgba(0,0,0,0.85)!important;
+    border: 0!important;
+    height: 240px!important;
+    padding: 0!important;
+}
+.asm-offer a
+{
+    border: none!important;
+    border-bottom: 1px solid #888!important;
+    border-bottom: 1px solid rgba(255,255,255,0.2)!important;
+    color: #AC3!important;
+    display: block!important;
+    font-family: 'Droid Sans',sans-serif!important;
+    font-size: 15px!important;
+    font-weight: 600!important;
+    height: 39px!important;
+    line-height: 40px!important;
+    overflow: hidden!important;
+    padding: 0!important;
+    text-align: center!important;
+    white-space: nowrap!important;
+}
+.asm-offer a:hover
+{
+    color: #FFF!important;
+}
+.asm-spinner
+{
+    display: none!important;
+}
+#asm-back
+{
+    color: #D00!important;
+    cursor: pointer;
+    font-size: 15px!important;
+    font-weight: 400!important;
+}
+#asm-wait
+{
+    background: #333!important;
+    background: rgba(0,0,0,0.85)!important;
+    font-size: 15px!important;
+    height: 200px!important;
+}
+#notification
+{
+    background: #AAA url(../images/attention.png) no-repeat left center;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2),inset 0 1px 1px rgba(255,255,255,0.2);
+    height: 0;
+    margin: 0 auto;
+    opacity: 0;
+    overflow: hidden;
+    width: 700px;
+}
+#notification span
+{
+    color: #000;
+    display: block;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 15px;
+    padding-left: 95px;
+    text-align: justify;
+    font-weight: bold;
+}
+-->
+#gamedescription
+{
+    background: #333;
+    background: rgba(20,20,20,0.5);
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), inset 0 1px 1px rgba(255,255,255,0.2);
+    margin: 0 auto 15px;
+    overflow: hidden;
+    width: 700px;
+}
+#gamedescription .pad
+{
+    color: #BBB;
+    display: block;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 15px;
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+#gamedescription h2
+{
+    color: #DDD;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#gamedescription h3
+{
+    color: #DDD;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#giftcard
+{
+    background: #333;
+    background: rgba(20,20,20,0.5);
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2),inset 0 1px 1px rgba(255,255,255,0.2);
+    height: 360px;
+    margin: 150px auto 25px;
+    overflow: hidden;
+    position: relative;
+    width: 700px;
+}
+#gccontent
+{
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+#giftamount
+{
+    bottom: 23px;
+    height: 28px;
+    position: absolute;
+    width: 700px;
+}
+#radiobuttons
+{
+    height: 28px;
+    left: 15px;
+    position: absolute;
+    top: 0;
+    width: 500px;
+}
+#radiobuttons li
+{
+    color: #DDD;
+    float: left;
+    font-size: 17px;
+    height: 28px;
+    line-height: 28px;
+    list-style: none;
+    margin-right: 10px;
+    position: relative;
+}
+input[type="radio"]
+{
+    display: none;
+}
+input[type="radio"]+span
+{
+    background: url(../images/radio.png) no-repeat bottom left;
+    display: block;
+    height: 13px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 13px;
+    z-index: 0;
+}
+input[type="radio"]:checked+span
+{
+    background-position: top left;
+}
+#radiobuttons label
+{
+    padding-left: 20px;
+    position: relative;
+    z-index: 1;
+}
+#gpgenerate
+{
+    background: url(../images/gpgenerate.png) no-repeat top center;
+    border-radius: 5px;
+    bottom: 0;
+    color: #FFF;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    transition: all 1s;
+    width: 142px;
+}
+#gpgenerate:hover
+{
+    background-position: bottom center;
+}
+#giftcard #background
+{
+    height: 239px;
+    left: 50%;
+    margin-left: -108px;
+    margin-top: -120px;
+    top: 50%;
+    width: 216px;
+}
+#gccontent #asm-widget
+{
+    top: 53px!important;
+}
+#giftcard #wait
+{
+    background: rgba(0,0,0,0.3)!important;
+}
+#gpprogress
+{
+    background: url(../images/gpprogress.png) no-repeat left top;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+#gccontent #activate
+{
+    bottom: 23px;
+}
+#gccontent .asm-offers
+{
+    background: rgba(0,0,0,0.3)!important;
+}
+.psn #background
+{
+    height: 256px!important;
+    margin-left: -135px!important;
+    margin-top: -128px!important;
+    width: 270px!important;
+}
+#psngenerate
+{
+    background: url(../images/psngenerate.png) no-repeat top center;
+    border-radius: 5px;
+    bottom: 0;
+    color: #FFF;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    transition: all 1s;
+    width: 142px;
+}
+#psngenerate:hover
+{
+    background-position: bottom center;
+}
+#psnprogress
+{
+    background: url(../images/psnprogress.png) no-repeat left top;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+#giftcard.it #background
+{
+    height: 252px;
+    margin-left: -105px;
+    margin-top: -132px;
+    width: 204px;
+}
+#itgenerate
+{
+    background: url(../images/itgenerate.png) no-repeat top center;
+    border-radius: 5px;
+    bottom: 0;
+    color: #FFF;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    transition: all 1s;
+    width: 142px;
+}
+#itgenerate:hover
+{
+    background-position: bottom center;
+}
+#itprogress
+{
+    background: url(../images/itprogress.png) no-repeat left top;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.xb #background
+{
+    height: 246px!important;
+    margin-left: -125px!important;
+    margin-top: -128px!important;
+    width: 250px!important;
+}
+#xbgenerate
+{
+    background: url(../images/xboxgenerate.png) no-repeat top center;
+    border-radius: 5px;
+    bottom: 0;
+    color: #FFF;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    transition: all 1s;
+    width: 142px;
+}
+#xbgenerate:hover
+{
+    background-position: bottom center;
+}
+#xbprogress
+{
+    background: url(../images/xboxprogress.png) no-repeat left top;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.s3 #gccontent
+{
+    z-index: 5!important;
+}
+#giftcard.s3
+{
+    overflow: visible;
+}
+#giftcard.s3 #background
+{
+    height: 360px;
+    left: 0;
+    margin-left: 0;
+    margin-top: 0;
+    top: 0;
+    width: 700px;
+}
+#s3generate
+{
+    background: url(../images/s3generate.png) no-repeat top center;
+    border-radius: 5px;
+    bottom: 0;
+    color: #FFF;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    transition: all 0.3s;
+    width: 142px;
+}
+#s3generate:hover
+{
+    background-position: bottom center;
+}
+#s3progress
+{
+    background: url(../images/s3progress.png) no-repeat left top;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.ea #gccontent
+{
+    z-index: 5!important;
+}
+#giftcard.ea
+{
+    overflow: visible;
+}
+#giftcard.ea #background
+{
+    height: 360px;
+    left: 0;
+    margin-left: 0;
+    margin-top: 0;
+    top: 0;
+    width: 700px;
+}
+.ea #s3generate
+{
+    background: url(../images/eagenerate.png) no-repeat top center;
+    border-radius: 5px;
+    bottom: 0;
+    color: #FFF;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    transition: all 0.3s;
+    width: 142px;
+}
+.ea #s3generate:hover
+{
+    background-position: bottom center;
+}
+.ea #s3progress
+{
+    background: url(../images/eaprogress.png) no-repeat left top;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.ea #loader
+{
+    overflow: hidden;
+}
+.droplist
+{
+    background: url(../images/s3droplist.png) no-repeat top center;
+    border-radius: 5px;
+    float: left;
+    height: 28px;
+    margin-right: 10px;
+    position: relative;
+    width: 180px;
+}
+.droplist:hover
+{
+    background-position: bottom center;
+}
+#galeft
+{
+    bottom: 0;
+    height: 28px;
+    left: 15px;
+    position: absolute;
+    z-index: 10;
+}
+.droptitle
+{
+    background: url(../images/s3dropspan.png) no-repeat right top;
+    color: #AAA;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    padding-left: 8px;
+    padding-right: 25px;
+    position: relative;
+    white-space: nowrap;
+    width: 147px;
+    z-index: 2;
+}
+.selected .droptitle
+{
+    color: #222;
+}
+.dlopen .droptitle
+{
+    background-position: bottom right;
+}
+.s3 #loader
+{
+    overflow: hidden;
+}
+.drop
+{
+    background: #E5E5E5;
+    background: rgba(255,255,255,0.9);
+    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2),inset 0 1px 1px rgba(255,255,255,0.2);
+    cursor: default;
+    height: 0;
+    margin-top: 2px;
+    opacity: 0;
+    overflow: hidden;
+    width: 180px;
+}
+.dropback
+{
+    background: url(../images/s3drophover.png) top center;
+    border-radius: 3px;
+    height: 22px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    transition: all 0.3s;
+    width: 19px;
+    z-index: 1;
+}
+.droplist:hover .dropback
+{
+    background-position: bottom center;
+}
+.dropscroll
+{
+    height: 170px;
+    overflow: hidden;
+    padding: 5px;
+    width: 170px;
+}
+.dropitems
+{
+    height: 170px;
+    overflow: hidden;
+    width: 170px;
+}
+.dropitems a
+{
+    color: #000;
+    display: block;
+    font-size: 14px;
+    height: 19px;
+    line-height: 19px;
+    padding-left: 3px;
+    text-shadow: 1px 1px 3px #EEE;
+    white-space: nowrap;
+}
+#galeft .jspPane
+{
+    left: 0!important;
+    right: 10px!important;
+}
+#galeft .jspVerticalBar
+{
+    right: 0;
+}
+#galeft .jspPane
+{
+    left: 0!important;
+    right: 10px!important;
+}
+#galeft .jspTrack
+{
+    background: #CCC;
+    background: rgba(0,0,0,0.1);
+}
+#galeft .jspDrag
+{
+    background: #888;
+    box-shadow: none;
+}
+#galeft .jspDrag.jspHover
+{
+    background: #555;
+    box-shadow: none;
+}
+#loadgateway
+{
+    display: none;
+}
+#giftcard.s3 .asm-offers
+{
+    background: rgba(0,0,0,0.7)!important;
+}
+#giftcard #success
+{
+    bottom: 25px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#giftcard #success span
+{
+    display: block;
+}
+#giftcard #success span span
+{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#giftcard.video
+{
+    margin-top: 120px!important;
+}
+.wot #background
+{
+    height: 360px!important;
+    left: 0!important;
+    margin: 0!important;
+    top: 0!important;
+    width: 700px!important;
+}
+#wotgenerate
+{
+    background: url(../images/wotgenerate.png) no-repeat top center;
+    border-radius: 5px;
+    bottom: 0;
+    color: #FFF;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    transition: all 0.8s;
+    width: 142px;
+}
+#wotgenerate:hover
+{
+    background-position: bottom center;
+}
+#wotprogress
+{
+    background: url(../images/wotprogress.png) no-repeat left top;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+#giftcard.wot
+{
+    overflow: visible;
+}
+.wot #gccontent
+{
+    z-index: 5!important;
+}
+#giftcard.wot .asm-offers
+{
+    background: rgba(0,0,0,0.7)!important;
+}
+.wot #loader
+{
+    overflow: hidden;
+}
+.wot .dropback
+{
+    background: url(../images/wotdrophover.png) top center;
+}
+.ebay #background
+{
+    height: 222px!important;
+    margin-left: -190px!important;
+    margin-top: -85px!important;
+    width: 380px!important;
+}
+.ebay #radiobuttons
+{
+    top: 5px!important;
+}
+.ebay #gpgenerate
+{
+    background: url(../images/ebaygenerate.png) no-repeat top center!important;
+}
+.ebay #gpgenerate:hover
+{
+    background-position: bottom center!important;
+}
+.ebay #gpprogress
+{
+    background: url(../images/ebayprogress.png) no-repeat left top;
+}
+.amazon #background
+{
+    height: 122px!important;
+    margin-left: -202px!important;
+    margin-top: -50px!important;
+    width: 404px!important;
+}
+.amazon #gpgenerate
+{
+    background: url(../images/azgenerate.png) no-repeat top center!important;
+}
+.amazon #gpgenerate:hover
+{
+    background-position: bottom center!important;
+}
+.amazon #gpprogress
+{
+    background: url(../images/azprogress.png) no-repeat left top;
+}
+#console
+{
+    background: #333;
+    background: rgba(20,20,20,0.5);
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2),inset 0 1px 1px rgba(255,255,255,0.2);
+    height: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 700px;
+}
+#consdata
+{
+    color: #AE3;
+    display: block;
+    font-size: 15px;
+    line-height: 19px;
+    line-height: 20px;
+    padding: 15px;
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+#consdata p
+{
+    height: 20px;
+    line-height: 20px;
+}
+#consdata p.red
+{
+    color: #D00;
+}
+#cdholder
+{
+    height: 60px;
+    overflow: hidden;
+}
+#game.username .droplist
+{
+    background: url(../images/s3droplist.png) repeat-x top center;
+    margin-bottom: 7px;
+    width: 220px;
+}
+#game.username .droptitle
+{
+    width: 187px;
+}
+#game.username #generate
+{
+    right: 35px;
+}
+#game.username
+{
+    overflow: visible;
+}
+#game.username #loader
+{
+    overflow: hidden;
+    z-index: 12;
+}
+#game.username .jspPane
+{
+    left: 0!important;
+    right: 10px!important;
+}
+#game.username .jspVerticalBar
+{
+    right: 0;
+}
+#game.username .jspPane
+{
+    left: 0!important;
+    right: 10px!important;
+}
+#game.username .jspTrack
+{
+    background: #CCC;
+    background: rgba(0,0,0,0.1);
+}
+#game.username .jspDrag
+{
+    background: #888;
+    box-shadow: none;
+}
+#game.username .jspDrag.jspHover
+{
+    background: #555;
+    box-shadow: none;
+}
+#game.username .droplist:first-of-type
+{
+    z-index: 10;
+}
+#game.username .dropscroll
+{
+    width: 210px;
+}
+#game.username .drop
+{
+    background: #E5E5E5;
+    width: 220px;
+}
+#game.username .dropitems
+{
+    width: 210px;
+}
+#game.username input[type="text"]
+{
+    width: 165px;
+}
+#likeoverlay
+{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 110;
+}
+#likepopup
+{
+    background: #AAA url(../images/attention.png) no-repeat left center;
+    background: rgba(255,255,255,0.3) url(../images/attention.png) no-repeat left center;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2),inset 0 1px 1px rgba(255,255,255,0.2);
+    height: 50px;
+    left: 50%;
+    margin-left: -162px;
+    margin-top: -20px;
+    padding: 15px 15px 15px 100px;
+    position: absolute;
+    top: 50%;
+    width: 210px;
+}
+#liketitle
+{
+    color: #EEE;
+    display: block;
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 5px;
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    width: 410px;
+}
+.jspContainer
+{
+    overflow: visible;
+    position: relative;
+}
+.jspPane
+{
+    left: 20px!important;
+    position: absolute;
+    right: 20px!important;
+    width: auto!important;
+}
+.jspVerticalBar
+{
+    background: rgba(0,0,0,0);
+    border-radius: 4px;
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 8px;
+}
+.jspHorizontalBar
+{
+    background: red;
+    bottom: 0;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.jspVerticalBar *,.jspHorizontalBar *
+{
+    margin: 0;
+    padding: 0;
+}
+.jspCap
+{
+    display: none;
+}
+.jspHorizontalBar .jspCap
+{
+    float: left;
+}
+.jspTrack
+{
+    background: #356;
+    background: rgba(255,255,255,0.1);
+    border-radius: 4px;
+    position: relative;
+}
+.jspDrag
+{
+    background: #FFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 8px;
+}
+.jspDrag.jspHover
+{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.jspHorizontalBar .jspTrack,.jspHorizontalBar .jspDrag
+{
+    float: left;
+    height: 100%;
+}
+.jspArrow
+{
+    background: #50506d;
+    cursor: pointer;
+    display: block;
+    text-indent: -20000px;
+}
+.jspArrow.jspDisabled
+{
+    background: #80808d;
+    cursor: default;
+}
+.jspVerticalBar .jspArrow
+{
+    height: 16px;
+}
+.jspHorizontalBar .jspArrow
+{
+    float: left;
+    height: 100%;
+    width: 16px;
+}
+.jspVerticalBar .jspArrow:focus
+{
+    outline: none;
+}
+.jspCorner
+{
+    background: #eeeef4;
+    float: left;
+    height: 100%;
+}
+* html .jspCorner
+{
+    margin: 0 -3px 0 0;
+}
